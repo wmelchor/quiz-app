@@ -1,0 +1,63 @@
+.container{
+    width: 640px;
+    margin: auto;
+    margin-top: 150px;
+    background: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+
+.container hr {
+    height: 2px;
+    border: none;
+    background: #707070;
+}
+
+.container h2 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.container ul li {
+    display: flex; /* Make each item flexible */
+    align-items: center; /* Center each li vertically within the container */
+    height: 70px; /* Set height of each li to 70 pixels */
+    padding-left: 15px; /* Adds 15 pixels of spacing to the left of each li */
+    padding-right: 10px; /* Adds 10 pixels of spacing to the right of each li (so the text isn't touching the right side of the box) */
+    border: 1px solid #686868; /* Create a border around each li with a width of 1 pixel, solid style, and grey */
+    border-radius: 8px; /* Round the corners of each li with an 8 pixel border radius for a more rounded look */
+    margin-bottom: 20px; /* Add 20 pixels of spacing to the bottom of each li */
+    font-size: 20px; /* Set the text in each li to 20 pixels */
+    cursor: pointer; /* The cursor will become a hand when hovering over the list */
+}
+
+.container button{
+    margin: auto; /* Center the button horizontally within the container */
+    width: 250px;
+    height: 65px;
+    background: #553f9a;
+    color: white;
+    font-size: 25px;
+    font-weight: 500; /* Make text slightly bolder (400 is regular) */
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container .index { /* Need the dot before index because it is a class name */
+    margin: auto; /* Center the index */
+    font-size: 18px;
+}
+
+.container .correct{
+    background: #dffff2;
+    border-color: #00d397;
+}
+
+.container .wrong{
+    background: #FFEBEB;
+    border-color: #FF4A4A;
+}

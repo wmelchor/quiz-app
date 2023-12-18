@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0; /* This will line up the answers with the question */
+}
+
+body{
+  height: 100vh;
+  background-image: linear-gradient(#D8C7FF, #19006C);
+  font-family: 'poppins';
+}
